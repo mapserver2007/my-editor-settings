@@ -1,0 +1,4 @@
+{
+    Description = "Mac用Milkode起動スクリプト";
+    Provides    = ("milk_web_service")
+}

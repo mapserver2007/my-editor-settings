@@ -1,0 +1,72 @@
+[
+    /* 行削除 */
+    { "keys": ["ctrl+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+    /* ctrl + f デフォルトの検索を置換付きに */
+    { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace"} },
+    /* ctrl + shift + f ファイル内検索 */
+    { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    /* コメントアウト */
+    { "keys": ["ctrl+/"], "command": "toggle_comment", "args": { "block": false } },
+    /* VBS用コメントアウト 要ASPComment */
+    { "keys": ["ctrl+shift+/"], "command": "asp_comment_toggle_comment"},
+    /* タブ移動 */
+    { "keys": ["ctrl+shift+right"], "command": "next_view" },
+    { "keys": ["ctrl+shift+left"], "command": "prev_view" },
+    /* 指定行番号へジャンプ */
+    { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    /* 末尾のスペースを削除  */
+    { "keys": ["ctrl+shift+o"], "command": "delete_trailing_spaces" },
+    /* HtmlTidy */
+    { "keys": ["ctrl+alt+o"], "command": "tidy_html"},
+    /* command + 1 レイアウトリセット */
+    {
+        "keys": ["ctrl+1"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    /* command + 2 レイアウト 縦二分割 */
+    {
+        "keys": ["ctrl+2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+        }
+    },
+    /* command + 3 レイアウト 縦三分割 */
+    {
+        "keys": ["ctrl+3"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.33, 0.66, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
+        }
+    },
+    {
+        /* オートコンプリート */
+        "spell_check":                  false,      // スペルチェック(エラーだらけになるので無効に)
+        "auto_complete":                true,       // オートコンプリート
+        "auto_complete_size_limit":     4194304,    // オートコンプリートが自動で表示されるファイルの最大サイズ
+        "auto_complete_delay":          50,         // 補完候補表示の遅延
+        "auto_complete_commit_on_tab":  true,       // 補完候補の選択にタブキーのみを用いる
+
+        "auto_complete_selector":   "",             // オートコンプリートの有効な場所の指定
+        "auto_complete_triggers":   [{              // オートコンプリートのより詳細なシチュエーション
+                                        "selector": "text.html",
+                                        "characters": "&lt;"
+                                    }]
+    },
+    /* Markdownプレビュー */
+    { "keys": ["ctrl+shift+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+    /* Milkode検索 */
+    { "keys": ["ctrl+shift+g"], "command": "web_search" }
+]

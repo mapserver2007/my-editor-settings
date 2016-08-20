@@ -1,0 +1,34 @@
+{
+    /* テーマ */
+    "color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+    /* デフォルトの改行コード(システムに合わせる) */
+    "default_line_ending": "system",
+    /* スペースを表示する */
+    "draw_white_space": "all",
+    /* 保存しておくローカルヒストリーの保持日数 */
+    "file_history_retention": 30,
+    /* ローカルヒストリーの最大ファイルサイズ */
+    "file_size_limit": 262144,
+    /* フォントをアンチエイリアス */
+    "font_options": [
+        "directwrite"
+    ],
+    /* 行をハイライト */
+    "highlight_line": true,
+    /* 開いていたファイルを記憶 */
+    "remember_open_files": true,
+    /* タブをスペースに置換 */
+    "translate_tabs_to_spaces": true,
+     /* オートコンプリート */
+    "spell_check":                  false,      // スペルチェック(エラーだらけになるので無効に)
+    "auto_complete":                true,       // オートコンプリート
+    "auto_complete_size_limit":     4194304,    // オートコンプリートが自動で表示されるファイルの最大サイズ
+    "auto_complete_delay":          50,         // 補完候補表示の遅延
+    "auto_complete_commit_on_tab":  true,       // 補完候補の選択にタブキーのみを用いる
+
+    "auto_complete_selector":   "",             // オートコンプリートの有効な場所の指定
+    "auto_complete_triggers":   [{              // オートコンプリートのより詳細なシチュエーション
+                                    "selector": "text.html",
+                                    "characters": "&lt;"
+                                }]
+}

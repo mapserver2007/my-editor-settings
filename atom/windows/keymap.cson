@@ -1,0 +1,19 @@
+# Disable default key bindings
+'atom-workspace atom-text-editor':
+  'ctrl-l': 'unset!'
+  'ctrl-k': 'unset!'
+
+# Delete line
+'atom-text-editor:not([mini])':
+  'ctrl-d': 'editor:delete-line'
+  'ctrl-shift-k': 'unset!'
+
+# Jump line
+'.platform-darwin, .platform-win32, .platform-linux':
+  'ctrl-l': 'go-to-line:toggle'
+  'ctrl-g': 'unset!'
+
+# Find by selected word
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-i': 'find-and-replace:find-next-selected'
+  'ctrl-shift-i': 'find-and-replace:find-previous-selected'

@@ -1,0 +1,8 @@
+task:default => [:startup]
+
+task :startup do
+  HOME = "/Users/stay"
+  MILKODE_HOME = "#{HOME}/.milkode"
+  MILKODE_COMMAND = "#{HOME}/.rvm/gems/ruby-1.9.3-head/bin/milk"
+  sh "#{MILKODE_COMMAND} web -n --host=127.0.0.1 --port=9292 --db=#{MILKODE_HOME} > /dev/null &"
+end

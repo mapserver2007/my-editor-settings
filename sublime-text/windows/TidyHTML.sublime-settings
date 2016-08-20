@@ -1,0 +1,10 @@
+{
+    "TidyHTML":{
+        "options":[
+            {"indent":"yes"}
+            ,{"indent-spaces":"4"}
+            ,{"wrap":"0"}
+        ],
+        "filetypes":[".html", ".asp"]
+    }
+}

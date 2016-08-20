@@ -1,0 +1,71 @@
+[
+    /** 末尾のスペース削除 */
+    { "keys": ["command+shift+o"], "command": "delete_trailing_spaces" },
+    /* HtmlTidy */
+    { "keys": ["command+option+o"], "command": "tidy_html"},
+    /* 行削除 */
+    { "keys": ["command+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+    /* command + f デフォルトの検索を置換付きに */
+    { "keys": ["command+f"], "command": "show_panel", "args": {"panel": "replace"} },
+    /* command + h ファイル内検索 */
+    { "keys": ["command+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+    /* コメントアウト */
+    { "keys": ["command+/"], "command": "toggle_comment", "args": { "block": false } },
+    /* VBS用コメントアウト 要ASPComment */
+    //{ "keys": ["command+shift+/"], "command": "asp_comment_toggle_comment"},
+    /* タブ移動 */
+    { "keys": ["command+shift+right"], "command": "next_view" },
+    { "keys": ["command+shift+left"], "command": "prev_view" },
+    /* 指定行番号へジャンプ */
+    { "keys": ["command+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+    /* command + 1 レイアウトリセット */
+    {
+        "keys": ["command+1"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    /* command + 2 レイアウト 縦二分割 */
+    {
+        "keys": ["command+2"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]]
+        }
+    },
+    /* command + 3 レイアウト 縦三分割 */
+    {
+        "keys": ["command+3"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.33, 0.66, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2], [0, 2, 1, 3]]
+        }
+    },
+    /* オートコンプリート */
+    { "keys": ["command+space"], "command": "auto_complete" },
+    { "keys": ["command+space"], "command": "replace_completion_with_auto_complete", "context":
+        [
+            { "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.tab_completion", "operator": "equal", "operand": true }
+        ]
+    },
+    /* Markdownプレビュー */
+    { "keys": ["command+shift+m"], "command": "markdown_preview", "args": {"target": "browser"} },
+    /* Milkode検索 */
+    { "keys": ["command+shift+g"], "command": "web_search" },
+    /** Mac Terminal */
+    { "keys": ["command+shift+t"], "command": "open_mac_terminal" },
+    /** sublime-phpcs */
+    { "keys": ["command+shift+_"], "command": "phpcs_sniff_this_file" }
+]

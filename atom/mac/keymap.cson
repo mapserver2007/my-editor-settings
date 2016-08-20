@@ -1,0 +1,7 @@
+'.platform-darwin atom-text-editor':
+  'cmd-d': 'editor:delete-line'
+  'cmd-i': 'find-and-replace:find-next-selected'
+  'cmd-shift-i': 'find-and-replace:find-previous-selected'
+  'cmd-l': 'go-to-line:toggle'
+  'cmd-shift-u': 'encoding-selector:show'
+  'cmd-m': 'markdown-preview:toggle'
