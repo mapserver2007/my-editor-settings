@@ -135,8 +135,6 @@ git 1.9.3
   * SublimeTextにある便利なコンテキストメニューを使えるようにする
 * [pretty-json](https://atom.io/packages/pretty-json)
   * JSONを整形する
-* ~~[project-manager](https://atom.io/packages/project-manager)~~
-  * ~~プロジェクトの切り替えを行う~~
 * [linter](https://atom.io/packages/linter)
   * 各言語用のLintパッケージ
 * [linter-php](https://atom.io/packages/linter-php)
@@ -171,6 +169,8 @@ git 1.9.3
     * 例：`/Users/mapserver2007/.rbenv/shims/ruby`
 * [autocomplete-ruby](https://atom.io/packages/autocomplete-ruby)
   * Rubyのメソッドをの補完を行う
+* [language-docker](https://atom.io/packages/language-docker)
+  * Dockerfileのハイライトを行う
 
 ## 4.キーバインド設定
 キーバインドは以下のとおり([Windows](https://github.com/mapserver2007/atom-settings/blob/master/windows/keymap.cson),[Mac](https://github.com/mapserver2007/atom-settings/blob/master/mac/keymap.cson))  
