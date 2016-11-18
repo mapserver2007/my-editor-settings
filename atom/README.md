@@ -103,6 +103,10 @@ git 1.9.3
   * 日本語化する
 * [trailling-spaces](https://atom.io/packages/trailing-spaces)
   * 末尾のスペースをハイライトする
+    * 「Enable For Cursor Lines」のチェックは外す
+      * 現在のカーソル位置のスペースはハイライトさせない
+    * 「Enable For Identation」のチェックを入れる
+      * 空行のインデントをハイライトする
 * [jquery-snippets](https://atom.io/packages/jquery-snippets)
   * jQueryのコード補完をする
 * [local-history](https://atom.io/packages/local-history)
