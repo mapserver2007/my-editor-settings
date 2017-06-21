@@ -34,9 +34,6 @@ Windowsでパッケージをインストールするには以下のツールを�
 参照：[https://atom.io/docs/v0.186.0/build-instructions/windows](https://atom.io/docs/v0.186.0/build-instructions/windows)
 * Visual Studio
   * 2010以降。C++ビルドに使用する
-* node.js
-  * v0.10.x、v0.12.xのいずれか
-  * is.js(1.x)でもよい
 * Python
   * v2.7.x
 * git
@@ -44,12 +41,12 @@ Windowsでパッケージをインストールするには以下のツールを�
 
 ```
 $> apm -v
-apm  1.0.1
-npm  2.5.1
-node 0.10.35
-python 2.7.10k
-git 1.9.4.msysgit.0
-visual studio 2013
+apm  1.18.1
+npm  3.10.10
+node 6.9.5 x64
+python 2.7.13
+git 2.10.1.windows.1
+visual studio 2015
 ```
 
 パッケージのインストールに失敗し、以下のメッセージが出る場合は、パッケージダウンロード先URLが302リダイレクトされる場合の設定をする必要がある。
@@ -119,16 +116,12 @@ git 1.9.3
   * 全角スペースを表示する
 * [language-asp](https://atom.io/packages/language-asp)
   * Classic ASPのシンタックスハイライト
-* [japanese-wrap](https://atom.io/packages/japanese-wrap)
-  * 日本語の自動折り返し
 * [file-icons](https://atom.io/packages/file-icons)
   * アイコンを豪華にする
 * [script](https://atom.io/packages/script)
   * 各種スクリプトをその場で実行する
 * [open-recent](https://atom.io/packages/open-recent)
   * 最近開いたファイル、フォルダをFileメニューから開けるようにする
-* [symbols-tree-view](https://atom.io/packages/symbols-tree-view)
-  * 関数などのシンボルのツリーを表示する
 * [docblockr](https://atom.io/packages/docblockr)
   * docコメント補完
 * [emmet](https://atom.io/packages/emmet)
