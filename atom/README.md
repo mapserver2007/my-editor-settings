@@ -168,6 +168,8 @@ git 1.9.3
   * Rubyのメソッドをの補完を行う
 * [language-docker](https://atom.io/packages/language-docker)
   * Dockerfileのハイライトを行う
+* [tree-view-git-status](https://atom.io/packages/tree-view-git-status)
+  * プロジェクトにブランチを表示する
 
 ## 4.キーバインド設定
 キーバインドは以下のとおり([Windows](https://github.com/mapserver2007/atom-settings/blob/master/windows/keymap.cson),[Mac](https://github.com/mapserver2007/atom-settings/blob/master/mac/keymap.cson))  
