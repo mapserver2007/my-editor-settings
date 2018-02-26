@@ -1,0 +1,11 @@
+[
+    { "key": "ctrl+d",                  "command": "editor.action.deleteLines",
+                                        "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+m",                  "command": "markdown.showPreview",
+                                        "when": "editorLangId == 'markdown'" }, 
+    { "key": "ctrl+shift+m",            "command": "markdown.showPreviewToSide",
+                                        "when": "editorLangId == 'markdown'" }, 
+    { "key": "ctrl+l",                  "command": "workbench.action.gotoLine" }, 
+    { "key": "ctrl+shift+right",        "command": "workbench.action.nextEditor" },
+    { "key": "ctrl+shift+left",         "command": "workbench.action.previousEditor" },
+]
