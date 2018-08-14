@@ -1,0 +1,44 @@
+{
+    // git
+    "git.path": "C:\\Program Files\\Git\\cmd\\git.exe",
+
+    // Editor settings
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "boundary",
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}${separator}${appName}",
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false
+    },
+    "workbench.iconTheme": "vscode-icons",
+
+    // PHP
+    "php.validate.executablePath": "C:\\php-7.2.2\\php.exe",
+    "php.executablePath": "C:\\php-7.2.2\\php.exe",
+
+    // Ruby
+    "ruby.lint": {
+        "reek": true,
+        "rubocop": true,
+        "ruby": false, //Runs ruby -wc
+        "fasterer": true,
+        "debride": true,
+        "ruby-lint": false
+    },
+    "ruby.linter.executablePath": "C:\\Ruby23-x64\\bin\\ruby.exe",
+    "ruby.rctComplete.commandPath": "C:\\Ruby23-x64\\bin\\ruby.exe",
+
+    // Others
+    "files.associations": {
+        "Vagrantfile":"ruby"
+    },
+
+    // Language settings
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "[php]": {
+        "editor.tabSize": 4
+    }
+}

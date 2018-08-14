@@ -5,17 +5,18 @@
     * VSCode 1.20以降はXdebugがうまく動かないためインストールしない
 
 ## キーバインド
-| 項目名                             | 変更前        | 変更後           | 内容                                 |
-|------------------------------------|---------------|------------------|--------------------------------------|
-| editor.action.deleteLines          | ctrl+shift+k  | ctrl+d           | 行を削除                             |
-| markdown.showPreview               | ctrl+shift+v  | ctrl+m           | Markdownプレビュー                   |
-| markdown.showPreviewToSide         | ctrl+k v      | ctrl+shift+m     | Markdownプレビュー(サイドウィンドウ) |
-| workbench.action.gotoLine          | ctrl+g        | ctrl+l           | 指定行へジャンプ                     |
-| workbench.action.nextEditor        | ctrl+pagedown | ctrl+shift+right | 次のタブへ                           |
-| workbench.action.previousEditor    | ctrl+pageup   | ctrl+shift+left  | 前のタブへ                           |
-| -                                  | ctrl+/        | -                | コメントアウト/コメントアウト解除    |
-| workbench.action.quickOpen         | ctrl+p        | -                | ファイルクイックオープン             |
-| workbench.action.closeActiveEditor | ctrl+w        | -                | ファイルクローズ                     |
+| 項目名                               | 変更前        | 変更後           | 内容                                 |
+|--------------------------------------|---------------|------------------|--------------------------------------|
+| editor.action.deleteLines            | ctrl+shift+k  | ctrl+d           | 行を削除                             |
+| markdown.showPreview                 | ctrl+shift+v  | ctrl+m           | Markdownプレビュー                   |
+| markdown.showPreviewToSide           | ctrl+k v      | ctrl+shift+m     | Markdownプレビュー(サイドウィンドウ) |
+| workbench.action.gotoLine            | ctrl+g        | ctrl+l           | 指定行へジャンプ                     |
+| workbench.action.nextEditor          | ctrl+pagedown | ctrl+shift+right | 次のタブへ                           |
+| workbench.action.previousEditor      | ctrl+pageup   | ctrl+shift+left  | 前のタブへ                           |
+| -                                    | ctrl+/        | -                | コメントアウト/コメントアウト解除    |
+| workbench.action.quickOpen           | ctrl+p        | -                | ファイルクイックオープン             |
+| workbench.action.closeActiveEditor   | ctrl+w        | -                | ファイルクローズ                     |
+| editor.action.startFindReplaceAction | ctrl+h        | ctrl+r           | 置換                                 |
 
 ### 拡張インストール
 Visual Studio Codeに以下の拡張をインストールする
@@ -25,6 +26,8 @@ Visual Studio Codeに以下の拡張をインストールする
 * Ruby
 * Zenkaku
 * vscode-icons
+* Bookmarks
+* Bracket Pair Colorizer
 
 ## 基本設定
 [ファイル]→[基本設定]→[設定]を開き、以下を追記する
